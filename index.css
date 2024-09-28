@@ -46,3 +46,93 @@ body > #go {
     font-size: 0.9em;
     color: #555;
 }
+
+
+
+.flashcard-quiz {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    background-color: white;
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 800px;
+    height: 600px;
+    text-align: center;
+
+    /* Centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flashcard-quiz > .kanji {
+    border: 3px solid #000;
+    border-radius: 6px;
+    padding: 25px;
+    font-size: 13em;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.flashcard-quiz > .english {
+    margin-top: 20px;
+    font-size: 3em;
+    margin-bottom: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.flashcard-quiz > .button {
+    border: 2px solid #4b4b4b;
+    border-radius: 6px;
+    width: 40%;
+    height: 25%;
+    background-color: #1c68f7;
+    justify-self: center;
+}
+
+/* ============ Grid layout for input ============ */
+.flashcard-quiz > .input {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.flashcard-quiz > .input > .onyomi {
+    margin-bottom: 20px;
+    height: 2.5em;
+    width: 80%;
+
+    align-self: self-end;
+    justify-self: center;
+}
+
+.flashcard-quiz > .input > .kunyomi {
+    margin-top: 20px;
+    height: 2.5em;
+    width: 80%;
+
+    align-self: self-start;
+    justify-self: center;
+}
+
+.flashcard-quiz img {
+    width: 17%;
+}
+
+.flashcard-quiz img.mark-1 {
+    margin-bottom: 25px;
+    align-self: self-end;
+    justify-self: self-start;
+}
+
+.flashcard-quiz img.mark-2 {
+    margin-top: 20px;
+    align-self: self-start;
+    justify-self: self-start;
+}
