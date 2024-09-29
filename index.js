@@ -1,3 +1,37 @@
+
+
+function toggleCard(index) {
+    const card = document.getElementById(index);
+
+    // let newToggleValue = (card.getAttribute("toggle") === "true") ? "false" : "true";
+    // card.setAttribute("toggle", newToggleValue);
+
+    fetch(`/api/cards/${index}`)
+        .then(response => response.json())
+        .then(fullcard => {
+            console.log(fullcard);
+            const newToggleValue = (fullcard.toggle === "true") ? "false" : "true";
+            const toggledCard = {
+                ...fullcard,
+                toggle: newToggleValue
+            };
+
+            return fetch(`/api/cards/${index}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(toggledCard)
+            });
+        })
+        .then(response => response.json())
+        .then(toggledCard => {
+            card.style.backgroundColor = (toggledCard.toggle === "true") ? "white" : "rgb(170, 170, 170)";
+        })
+        .catch(error => console.error(error));
+}
+
+
 function cardToDiv(card, index) {
     const div = document.createElement("div");
     div.className = "flashcard";
