@@ -1,5 +1,3 @@
-
-
 function toggleCard(index) {
     const card = document.getElementById(index);
 
