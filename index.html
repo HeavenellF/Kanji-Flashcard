@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanji Flashcards</title>
 
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
     <script src="quiz.js"></script>
+
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <button id="go" onclick="">Go</button>
+    <ul id="button-list">
+        <li><button id="unlimited" onclick="goToQuizPage(0, 'unlimited')">Unlimited</button></li>
+    </ul>
+
     <div id="flashcard-container">
 
     </div>
 </body>
 </html>
+
