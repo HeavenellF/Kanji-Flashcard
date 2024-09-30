@@ -56,3 +56,21 @@ function cardToDiv(card, index) {
 }
 
 
+//==================================================================
+window.onload = function() {
+    // only run this code if we are on the index page
+    if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
+        let flashcard = document.getElementById("flashcard-container");
+
+        fetch('/api/cards', {
+            headers: {Accept: 'application/json'}
+        })
+            .then(response => response.json())
+            .then(cards => {
+                cards.forEach((card,index) => {
+                    div = cardToDiv(card, index);
+                    flashcard.appendChild(div);
+                })
+            });
+    }
+}
