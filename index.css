@@ -9,13 +9,28 @@ body {
     background-color: #535353;
 }
 
-body > #go {
+#button-list {
     position: fixed;
     top: 5%;
-    left: 90%;
-    width: 50px;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding-right: 10px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#button-list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#button-list button {
+    width: 100px;
     height: 50px;
 }
+
+
 
 #flashcard-container {
     padding-top: 100px;
