@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class = "flashcard-quiz">
-        <div class="kanji">本</div>
-        <div class="english">Book</div>
+        <div class="kanji"></div>
+        <div class="english"></div>
         <div class="input">
             <input type="Onyomi" class="onyomi" placeholder="onyomi">
             <img src="" class="mark-1">
@@ -21,5 +21,20 @@
         </div>
         <button class="button">Check</button>
     </div>
+
+
+    <script>
+        const onyomiInput = document.querySelector('.onyomi');
+        const kunyomiInput = document.querySelector('.kunyomi');
+        const button = document.querySelector('.button');
+
+        [onyomiInput, kunyomiInput].forEach(input => {
+            input.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    button.click();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
