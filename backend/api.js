@@ -12,6 +12,48 @@ const FLASHCARDS = [
     { "kanji": "百", "english": "Hundred", "onyomi": ["hyaku"], "kunyomi": [], "toggle": "false" },
     { "kanji": "千", "english": "Thousand", "onyomi": ["sen"], "kunyomi": ["chi"], "toggle": "false" },
     { "kanji": "万", "english": "Ten Thousand", "onyomi": ["man", "ban"], "kunyomi": [], "toggle": "false" },
+
+    { "kanji": "水", "english": "Water", "onyomi": ["sui"], "kunyomi": ["mizu"], "toggle": "false" },
+    { "kanji": "火", "english": "Fire", "onyomi": ["ka"], "kunyomi": ["hi"], "toggle": "false" },
+    { "kanji": "木", "english": "Wood", "onyomi": ["moku", "boku"], "kunyomi": ["ki"], "toggle": "false" },
+    { "kanji": "天", "english": "Heaven", "onyomi": ["ten"], "kunyomi": ["ame", "ama"], "toggle": "false" },
+    { "kanji": "土", "english": "Earth", "onyomi": ["do", "to"], "kunyomi": ["tsuchi"], "toggle": "false" },
+
+    { "kanji": "北", "english": "North", "onyomi": ["hoku"], "kunyomi": ["kita"], "toggle": "false" },
+    { "kanji": "東", "english": "East", "onyomi": ["tou"], "kunyomi": ["higashi"], "toggle": "false" },
+    { "kanji": "西", "english": "West", "onyomi": ["sei", "sai"], "kunyomi": ["nishi"], "toggle": "false" },
+    { "kanji": "南", "english": "South", "onyomi": ["nan"], "kunyomi": ["minami"], "toggle": "false" },
+    { "kanji": "左", "english": "Left", "onyomi": ["sa"], "kunyomi": ["hidari"], "toggle": "false" },
+    { "kanji": "右", "english": "Right", "onyomi": ["u"], "kunyomi": ["migi"], "toggle": "false" },
+
+    { "kanji": "日", "english": "Day/Sun", "onyomi": ["nichi", "jitsu"], "kunyomi": ["hi", "bi", "ka"], "toggle": "false" },
+    { "kanji": "月", "english": "Month/Moon", "onyomi": ["getsu", "gatsu"], "kunyomi": ["tsuki"], "toggle": "false" },
+    { "kanji": "花", "english": "Flower", "onyomi": ["ka"], "kunyomi": ["hana"], "toggle": "false" },
+    { "kanji": "魚", "english": "Fish", "onyomi": ["gyo"], "kunyomi": ["sakana", "uo"], "toggle": "false" },
+    { "kanji": "空", "english": "Sky", "onyomi": ["kuu"], "kunyomi": ["sora", "akeru", "kara"], "toggle": "false" },
+    { "kanji": "山", "english": "Mountain", "onyomi": ["san"], "kunyomi": ["yama"], "toggle": "false" },
+    { "kanji": "川", "english": "River", "onyomi": ["sen"], "kunyomi": ["kawa"], "toggle": "false" },
+    { "kanji": "雨", "english": "Rain", "onyomi": ["u"], "kunyomi": ["ame"], "toggle": "false" },
+    { "kanji": "本", "english": "Book/Origin", "onyomi": ["hon"], "kunyomi": ["moto"], "toggle": "false" },
+
+    { "kanji": "目", "english": "Eye", "onyomi": ["moku"], "kunyomi": ["me"], "toggle": "false" },
+    { "kanji": "口", "english": "Mouth", "onyomi": ["kou", "ku"], "kunyomi": ["kuchi"], "toggle": "false" },
+    { "kanji": "耳", "english": "Ear", "onyomi": ["ji"], "kunyomi": ["mimi"], "toggle": "false" },
+    { "kanji": "手", "english": "Hand", "onyomi": ["shu"], "kunyomi": ["te"], "toggle": "false" },
+    { "kanji": "足", "english": "Foot/Leg", "onyomi": ["soku"], "kunyomi": ["ashi", "tariru", "tasu"], "toggle": "false" },
+
+    { "kanji": "人", "english": "Person", "onyomi": ["jin", "nin"], "kunyomi": ["hito"], "toggle": "false" },
+    { "kanji": "母", "english": "Mother", "onyomi": ["bo"], "kunyomi": ["haha"], "toggle": "false" },
+    { "kanji": "父", "english": "Father", "onyomi": ["fu"], "kunyomi": ["chichi"], "toggle": "false" },
+    { "kanji": "女", "english": "Woman", "onyomi": ["jo", "nyo"], "kunyomi": ["onna", "me"], "toggle": "false" },
+    { "kanji": "男", "english": "Man", "onyomi": ["dan", "nan"], "kunyomi": ["otoko"], "toggle": "false" },
+    { "kanji": "子", "english": "Child", "onyomi": ["shi", "su"], "kunyomi": ["ko"], "toggle": "false" },
+
+    { "kanji": "小", "english": "Small", "onyomi": ["shou"], "kunyomi": ["chiisai", "ko", "o"], "toggle": "false" },
+    { "kanji": "中", "english": "Middle/Inside", "onyomi": ["chuu"], "kunyomi": ["naka"], "toggle": "false" },
+    { "kanji": "大", "english": "Big", "onyomi": ["dai", "tai"], "kunyomi": ["oo", "ookii", "ooi"], "toggle": "false" },
+    { "kanji": "上", "english": "Up/Above", "onyomi": ["jou", "shou"], "kunyomi": ["ue", "agaru", "ageru", "kami"], "toggle": "false" },
+    { "kanji": "下", "english": "Down/Below", "onyomi": ["ka", "ge"], "kunyomi": ["shita", "kudaru", "sageru", "orosu"], "toggle": "false" }
 ];
 
 
