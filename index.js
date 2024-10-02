@@ -29,6 +29,10 @@ function toggleCard(index) {
         .catch(error => console.error(error));
 }
 
+function togglaAlltoTrue() {
+    
+}
+
 
 function cardToDiv(card, index) {
     const div = document.createElement("div");
