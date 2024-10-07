@@ -49,11 +49,21 @@ const FLASHCARDS = [
     { "kanji": "男", "english": "Man", "onyomi": ["dan", "nan"], "kunyomi": ["otoko"], "toggle": "false" },
     { "kanji": "子", "english": "Child", "onyomi": ["shi", "su"], "kunyomi": ["ko"], "toggle": "false" },
 
-    { "kanji": "小", "english": "Small", "onyomi": ["shou"], "kunyomi": ["chiisai", "ko", "o"], "toggle": "false" },
+    { "kanji": "小", "english": "Small", "onyomi": ["shou"], "kunyomi": ["chiisai", "chii", "ko", "o"], "toggle": "false" },
     { "kanji": "中", "english": "Middle/Inside", "onyomi": ["chuu"], "kunyomi": ["naka"], "toggle": "false" },
     { "kanji": "大", "english": "Big", "onyomi": ["dai", "tai"], "kunyomi": ["oo", "ookii", "ooi"], "toggle": "false" },
     { "kanji": "上", "english": "Up/Above", "onyomi": ["jou", "shou"], "kunyomi": ["ue", "agaru", "ageru", "kami"], "toggle": "false" },
-    { "kanji": "下", "english": "Down/Below", "onyomi": ["ka", "ge"], "kunyomi": ["shita", "kudaru", "sageru", "orosu"], "toggle": "false" }
+    { "kanji": "下", "english": "Down/Below", "onyomi": ["ka", "ge"], "kunyomi": ["shita", "kudaru", "sageru", "orosu"], "toggle": "false" },
+
+    { "kanji": "何", "english": "What", "onyomi": ["ka"], "kunyomi": ["nani", "nan"], "toggle": "false" },
+    { "kanji": "行", "english": "Go", "onyomi": ["kou", "gyou"], "kunyomi": ["iku", "okona", "yuku", "i", "okona", "yu"], "toggle": "false" },
+    { "kanji": "見", "english": "See", "onyomi": ["ken"], "kunyomi": ["mi", "miru", "mieru", "miseru"], "toggle": "false" },
+    { "kanji": "言", "english": "Say", "onyomi": ["gen", "gon"], "kunyomi": ["i", "koto", "iu"], "toggle": "false" },
+    { "kanji": "語", "english": "Language", "onyomi": ["go"], "kunyomi": ["kata", "kataru", "katarau"], "toggle": "false" },
+    { "kanji": "食", "english": "Eat", "onyomi": ["shoku"], "kunyomi": ["ta", "taberu", "ku", "kuu", "kurau"], "toggle": "false" },
+    { "kanji": "飲", "english": "Drink", "onyomi": ["in"], "kunyomi": ["no", "nomu"], "toggle": "false" },
+    { "kanji": "会", "english": "Meet", "onyomi": ["kai", "e"], "kunyomi": ["a", "au"], "toggle": "false" }
+
 ];
 
 
