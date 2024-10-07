@@ -29,9 +29,18 @@ function toggleCard(index) {
         .catch(error => console.error(error));
 }
 
-function togglaAlltoTrue() {
-    
+function toggleAlltoTrue() {
+    fetch('/api/cards', {
+        headers: {Accept: 'application/json'}
+    })
+        .then(response => response.json())
+        .then(cards => {
+            cards.forEach((card, index) => {
+                toggleCard(index);
+            })
+        });
 }
+
 
 
 function cardToDiv(card, index) {
