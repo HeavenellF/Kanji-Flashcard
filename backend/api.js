@@ -68,6 +68,7 @@ const FLASHCARDS = [
 
 
 module.exports = {
+    FLASHCARDS,
     getCard: (req, res) => {
         const index = req.params.index;
         console.log(`GET /api/cards/${index}`);
