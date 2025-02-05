@@ -1,0 +1,32 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main  # Run tests when you push to the main branch
+  pull_request:
+    branches:
+      - main  # Run tests when you create a pull request to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # The virtual machine to run the tests on (you can use other environments)
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2  # Checks out your repository so it can be used in the workflow
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3  # Sets up Node.js environment
+      with:
+        node-version: '16'  # Specify your Node.js version
+
+    - name: Install dependencies
+      run: |
+        cd backend  # Go to the backend folder where package.json is located
+        npm install  # Install dependencies defined in package.json
+
+    - name: Run tests
+      run: |
+        cd backend  # Go to the backend folder
+        npm test  # Run the tests using npm
